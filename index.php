@@ -23,7 +23,6 @@
     function initMap() {
         const location = {lat: 43.906745, lng: -78.952235};
         const geocoder = new google.maps.Geocoder();
-        console.log(geocoder);
         const map = new google.maps.Map(document.getElementById('map'),{
             zoom: 10,
             center: location
