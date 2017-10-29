@@ -16,9 +16,6 @@
 
 <div id="map"></div>
 
-<?php
-    var_dump($address->getAddresses());
-?>
 <script>
     const objArray = <?php echo json_encode($address->getAddresses()); ?>;
 
